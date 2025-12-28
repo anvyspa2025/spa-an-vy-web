@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cảm ơn bạn đã đặt lịch | Spa An Vy Thủ Đức</title>
+  <meta name="description" content="Cảm ơn bạn đã đặt lịch tại Spa An Vy. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="images/logo-anvy.jpg" type="image/jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .thank-you-container {
+      background: white;
+      padding: 60px 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      text-align: center;
+      max-width: 600px;
+      animation: fadeInUp 0.6s ease;
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .checkmark {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #4CAF50;
+      margin: 0 auto 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: scaleIn 0.5s ease 0.2s both;
+    }
+    
+    @keyframes scaleIn {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+    
+    .checkmark svg {
+      width: 50px;
+      height: 50px;
+      stroke: white;
+      stroke-width: 3;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      animation: drawCheck 0.5s ease 0.4s both;
+      stroke-dasharray: 100;
+      stroke-dashoffset: 100;
+    }
+    
+    @keyframes drawCheck {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    h1 {
+      font-size: 2.5em;
+      color: #2c5f2d;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    
+    p {
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+    
+    .highlight {
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    
+    .info-box {
+      background: #f0f9ff;
+      border-left: 4px solid #667eea;
+      padding: 20px;
+      margin: 30px 0;
+      text-align: left;
+      border-radius: 8px;
+    }
+    
+    .info-box h3 {
+      color: #667eea;
+      margin-bottom: 10px;
+    }
+    
+    .info-box ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    
+    .info-box li {
+      padding: 8px 0;
+      color: #333;
+    }
+    
+    .info-box li::before {
+      content: "✓ ";
+      color: #4CAF50;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+    
+    .btn-group {
+      margin-top: 40px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .btn {
+      padding: 15px 35px;
+      border: none;
+      border-radius: 50px;
+      font-size: 1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    }
+    
+    .btn-secondary {
+      background: white;
+      color: #667eea;
+      border: 2px solid #667eea;
+    }
+    
+    .btn-secondary:hover {
+      background: #667eea;
+      color: white;
+    }
+    
+    .social-links {
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 1px solid #eee;
+    }
+    
+    .social-links h3 {
+      color: #333;
+      margin-bottom: 15px;
+      font-size: 1.2em;
+    }
+    
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      background: #f5f5f5;
+      color: #333;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      font-size: 0.95em;
+    }
+    
+    .social-links a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .zalo { background: #0068ff !important; color: white !important; }
+    .facebook { background: #1877f2 !important; color: white !important; }
+    .tiktok { background: #000 !important; color: white !important; }
+    
+    @media (max-width: 600px) {
+      .thank-you-container {
+        padding: 40px 25px;
+      }
+      
+      h1 {
+        font-size: 2em;
+      }
+      
+      .btn-group {
+        flex-direction: column;
+      }
+      
+      .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-container">
+    <div class="checkmark">
+      <svg viewBox="0 0 52 52">
+        <polyline points="14 27 22 35 38 17"/>
+      </svg>
+    </div>
+    
+    <h1>🌸 Cảm ơn bạn! 🌸</h1>
+    
+    <p>Chúng tôi đã nhận được thông tin đặt lịch của bạn.</p>
+    <p class="highlight">Spa An Vy sẽ liên hệ với bạn trong vòng 30 phút!</p>
+    
+    <div class="info-box">
+      <h3>📋 Bước tiếp theo:</h3>
+      <ul>
+        <li>Nhân viên spa sẽ gọi điện xác nhận lịch hẹn</li>
+        <li>Bạn sẽ nhận được tin nhắn Zalo/SMS xác nhận</li>
+        <li>Vui lòng đến đúng giờ để được phục vụ tốt nhất</li>
+        <li>Mang theo khăn cá nhân nếu muốn (spa có cung cấp)</li>
+      </ul>
+    </div>
+    
+    <p style="color: #888; font-size: 0.95em;">
+      <strong>Lưu ý:</strong> Nếu bạn chưa nhận được phản hồi sau 1 giờ, 
+      vui lòng liên hệ hotline: <a href="tel:+84778773226" style="color: #4CAF50; text-decoration: none; font-weight: bold;">0778 773 226</a>
+    </p>
+    
+    <div class="btn-group">
+      <a href="/" class="btn btn-primary">🏠 Về trang chủ</a>
+      <a href="/#dichvu" class="btn btn-secondary">📋 Xem bảng giá</a>
+    </div>
+    
+    <div class="social-links">
+      <h3>💬 Kết nối với chúng tôi:</h3>
+      <a href="https://zalo.me/+84778773226" target="_blank" class="zalo">Zalo</a>
+      <a href="https://www.facebook.com/share/1Bjx62vwS4/?mibextid=wwXIfr" target="_blank" class="facebook">Facebook</a>
+      <a href="https://www.tiktok.com/@anvy12122?_r=1&_t=ZS-91MQd92YOjV" target="_blank" class="tiktok">TikTok</a>
+    </div>
+  </div>
+  
+  <script>
+    // Auto redirect sau 10 giây (tùy chọn)
+    // setTimeout(() => {
+    //   window.location.href = '/';
+    // }, 10000);
+  </script>
+</body>
+</html>
