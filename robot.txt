@@ -1,0 +1,46 @@
+# robots.txt cho Spa An Vy
+# Cho phép tất cả search engines crawl website
+
+User-agent: *
+Allow: /
+
+# Không cho phép crawl các thư mục không cần thiết
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /thank-you.html
+
+# Cho phép crawl CSS và JS để Google hiểu website tốt hơn
+Allow: /style.css
+Allow: /script.js
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://anvyspa2025.github.io/spa-an-vy-thu-duc/sitemap.xml
+
+# Crawl-delay (tùy chọn - để bots không quá tải server)
+# Crawl-delay: 1
+
+# Riêng cho Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Riêng cho Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Block các bad bots (spam, scraper)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
