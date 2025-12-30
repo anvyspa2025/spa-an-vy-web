@@ -6,74 +6,66 @@
 
   <!-- Trang chủ -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/</loc>
-    <lastmod>2024-12-28</lastmod>
+    <loc>https://anvyspa2025.github.io/</loc>
+    <lastmod>2025-01-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Section Giới thiệu -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/#gioithieu</loc>
-    <lastmod>2024-12-28</lastmod>
+    <loc>https://anvyspa2025.github.io/#gioithieu</loc>
+    <lastmod>2025-01-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <!-- Section Hình ảnh -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/#hinhanh</loc>
-    <lastmod>2024-12-28</lastmod>
+    <loc>https://anvyspa2025.github.io/#hinhanh</loc>
+    <lastmod>2025-01-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 
   <!-- Section Feedback -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/#feedback</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://anvyspa2025.github.io/#feedback</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Section FAQ -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/#faq</loc>
-    <lastmod>2024-12-28</lastmod>
+    <loc>https://anvyspa2025.github.io/#faq</loc>
+    <lastmod>2025-01-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
 
-  <!-- Section Dịch vụ -->
+  <!-- Section Dịch vụ (quan trọng cho SEO) -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/#dichvu</loc>
-    <lastmod>2024-12-28</lastmod>
+    <loc>https://anvyspa2025.github.io/#dichvu</loc>
+    <lastmod>2025-01-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
 
-  <!-- Section Đặt lịch -->
+  <!-- Section Đặt lịch (quan trọng cho conversion) -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/#datlich</loc>
-    <lastmod>2024-12-28</lastmod>
+    <loc>https://anvyspa2025.github.io/#datlich</loc>
+    <lastmod>2025-01-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Section Liên hệ -->
   <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/#lienhe</loc>
-    <lastmod>2024-12-28</lastmod>
+    <loc>https://anvyspa2025.github.io/#lienhe</loc>
+    <lastmod>2025-01-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Thank you page -->
-  <url>
-    <loc>https://anvyspa2025.github.io/spa-an-vy-thu-duc/thank-you.html</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
